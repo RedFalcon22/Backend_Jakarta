@@ -1,0 +1,20 @@
+package mvcModel;
+
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+
+/**
+ * Session Bean implementation class SubjectService
+ */
+@Stateless
+@LocalBean
+public class SubjectService {
+
+    /**
+     * Default constructor. 
+     */
+    public SubjectService() {
+        // TODO Auto-generated constructor stub
+    }
+
+}
