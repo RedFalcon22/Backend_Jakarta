@@ -10,7 +10,10 @@ import java.util.List;
  * 
  */
 @Entity
-@NamedQuery(name="Subject.findAll", query="SELECT s FROM Subject s")
+@NamedQueries({
+		@NamedQuery(name="Subject.findAll", query="SELECT s FROM Subject s"),
+		@NamedQuery(name="Subject.findAllByTitleAndAffiliation", query="SELECT s FROM Subject s WHERE s.subjectTitle = ?1 AND s.teacher.affiliation = ?2"),
+})
 public class Subject implements Serializable {
 	private static final long serialVersionUID = 1L;
 

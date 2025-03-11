@@ -2,7 +2,11 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="jakarta.persistence.PersistenceContext"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="jakarta.ejb.EJB"/>
+    <fullyQualifiedTypeName name="mvcModel.SubjectService"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="entities.Subject"/>
+    <fullyQualifiedTypeName name="entities.Teacher"/>
 </qualifiedTypeNameHistroy>

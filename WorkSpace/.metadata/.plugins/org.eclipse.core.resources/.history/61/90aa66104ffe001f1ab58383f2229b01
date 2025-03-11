@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="ISO-8859-1"> 
+<title>Insert title here</title> 
+</head> 
+<body> 
+	<h1>Plateforme de gestion des matières</h1> 
+	<a href="searchTeacher.html">View Teachers</a> 
+	</br> 
+	<a href="searchSubject.html">Search Subject</a> 
+	</br> 
+	<a href="searchStudent.html">Search Student</a> 
+	</br> 
+	<a href="Controller?action=listSubjects">View List 
+	Subjects</a> 
+	</br> 
+</body> 
+</html>
